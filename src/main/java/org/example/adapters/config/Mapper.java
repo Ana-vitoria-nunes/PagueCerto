@@ -10,5 +10,4 @@ public class Mapper {
     public ModelMapper modelMapper(){
         return new ModelMapper();
     }
-
 }
