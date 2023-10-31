@@ -21,6 +21,8 @@ public class CostumerController {
    private final UpdateCostumerUseCase updateCostumer;
    private final GetCostumerUseCase getCostumer;
 
+
+   
     @PostMapping
     public ResponseEntity addUser(@Valid @RequestBody CostumerRequest cliente) {
         try {
