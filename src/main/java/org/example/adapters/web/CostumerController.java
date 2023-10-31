@@ -20,8 +20,6 @@ public class CostumerController {
    private final SaveCostumerUseCase saveCostumer;
    private final UpdateCostumerUseCase updateCostumer;
    private final GetCostumerUseCase getCostumer;
-    //tratar excesão do erro de cpf
-    // tratar exesão que senha pode ser repetida
 
     @PostMapping
     public ResponseEntity addUser(@Valid @RequestBody CostumerRequest cliente) {

@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class ApplicationAdviceController extends ResponseEntityExceptionHandler {
 
-    //private final EnderecoValidator enderecoValidator;
+
     @ExceptionHandler(ConstraintViolationException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ResponseDto handlerConstraintViolationException(ConstraintViolationException ex){
