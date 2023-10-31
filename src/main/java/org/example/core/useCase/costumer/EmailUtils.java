@@ -6,6 +6,7 @@ public class EmailUtils {
         if (email == null) {
             return null;
         }
+        
         String[] parts = email.split("@");
         if (parts.length != 2) {
             return email;
